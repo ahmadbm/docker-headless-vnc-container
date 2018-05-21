@@ -6,4 +6,4 @@ RUN apt-get install -y ssh
 RUN apt-get clean -y
 EXPOSE 22
 USER 1000
-
+CMD ["/etc/init.d/ssh","start"]
