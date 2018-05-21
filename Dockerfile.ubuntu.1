@@ -5,5 +5,5 @@ RUN apt-get update -y
 RUN apt-get install -y ssh
 RUN apt-get clean -y
 EXPOSE 22
-USER 1000
+USER 0
 CMD ["/etc/init.d/ssh","start"]
