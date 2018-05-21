@@ -12,5 +12,5 @@ LABEL io.k8s.description="Headless VNC Container with Xfce window manager, firef
 RUN apt-get update -y 
 RUN apt-get install -y ssh
 RUN apt-get clean -y
-EXPOSE 22
-CMD ["/bin/bash"]
+CMD ["ping","localhost"]
+
