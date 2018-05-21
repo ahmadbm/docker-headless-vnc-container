@@ -4,7 +4,7 @@ set -e
 
 echo "Install some common tools for further installation"
 apt-get update 
-apt-get install -y vim wget net-tools locales gedit bzip2 \
+apt-get install -y vim wget net-tools locales gedit xrdp bzip2 \
     python-numpy #used for websockify/novnc
 apt-get clean -y
 
